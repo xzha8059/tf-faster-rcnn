@@ -23,6 +23,7 @@ from model.nms_wrapper import nms
 from utils.timer import Timer
 import tensorflow as tf
 import matplotlib.pyplot as plt
+plt.switch_backend('agg')
 import numpy as np
 import os, cv2
 import argparse
